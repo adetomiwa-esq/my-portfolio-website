@@ -1,0 +1,85 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(22, 22, 39);
+    align-items: center;
+    height: 60px;
+    padding-left: 5%;
+}
+
+.my-name {
+    font-size: 3rem;
+    color: red;
+    position: relative;
+}
+
+.my-name span {
+    font-family: 'Shalimar', cursive;
+    font-size: 2rem;
+    border-top: 1px solid red;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+}
+
+.navlinks {
+    list-style-type: none;
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.navlinks .top-links {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.navlinks .top-links:after,
+.navlinks .top-links.active:after {
+    content: '';
+    background-color: white;
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+}
+
+.navlinks .top-links:hover:after,
+.navlinks .top-links.active:after {
+    width: 18px;
+    transition: width 500ms ease;
+}
+
+.mobile-toggle {
+    color: white;
+    display: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+@media(max-width:800px){
+    .navlinks{
+        position: absolute;
+        background-color: yellow;
+        top: 60px;
+        left: -2000%;
+        width: 100%;
+        height: calc(100vh - 60px);
+        flex-direction: column;
+        align-items: center;
+        transition: left 400ms ease-in-out;
+    }
+
+    .nav-slide-in {
+        left: 0px;
+        position: fixed;
+        z-index: 999;
+    }
+
+    .mobile-toggle {
+        display: block;
+    }
+}
