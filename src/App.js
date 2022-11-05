@@ -6,7 +6,7 @@ import Home from './components/Pages/Home';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path='/my-portfolio-website' element={<Home />} />
