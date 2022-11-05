@@ -40,7 +40,7 @@ function Navbar() {
 
 
       <ul className={`navlinks ${positive ? 'nav-slide-in' : ''}`}>
-        <Link to='/' onClick={changePositive} className='top-links active'><li>Home</li></Link>
+        <Link to='/my-portfolio-website' onClick={changePositive} className='top-links active'><li>Home</li></Link>
         <Link to='/' onClick={changePositive} className='top-links'><li>About Me</li></Link>
         <Link to='/' onClick={changePositive} className='top-links'><li>Portfolio</li></Link>
       </ul>
