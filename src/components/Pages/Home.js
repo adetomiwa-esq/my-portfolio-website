@@ -12,9 +12,10 @@ function Home() {
             <div className='name'>I'm Akinola Kehinde <span className='ade'>Adetomiwa</span></div>
             <div className='role'>Front-end Developer</div>
             <p className='brief-1'>
-              Front-end developer with experience in the use of HTML, CSS, JavaScript and React JS in building websites and web applications.
+              Front-end developer with experience in the use of HTML, CSS/tailwind CSS, JavaScript and React JS in building websites and web applications.
             </p>
             <p className='brief-2'>I am skilled in the use of code versioning tools like Git and GitHub. I am also familiar with RESTful APIs.</p>
+            <p>I am currently improving at Node JS.</p>
             <div className='reach-me'>
               <a href='https://instagram.com/adetomiwa_akin?r=nametag'><i className='fa fa-instagram'></i></a>
               <a href='https://twitter.com/Adetomiwa_akin'><i className='fa fa-twitter'></i></a>
