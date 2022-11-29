@@ -1,6 +1,6 @@
-import React from 'react'
-import myPic from '../images/profile-img.JPG'
-import '../Home.css'
+import React from 'react';
+import myPic from '../images/profile-img.JPG';
+import '../Home.css';
 
 function Home() {
   return (
