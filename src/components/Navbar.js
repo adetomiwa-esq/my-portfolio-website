@@ -16,7 +16,29 @@ function Navbar() {
         this.classList.add('active')
       })
     }
+
+    // const nav = document.querySelector('.nav')
+    // window.onscroll = function(){
+    //   if(window.pageYOffset >= nav.offsetTop){
+    //     nav.classList.add('sticky')
+        
+    //   } else {
+    //     nav.classList.remove('sticky')
+    //   }
+    // }
   },[])
+
+  const [fix, setFix] = useState(false)
+
+  function navToFix(){
+    if(window.scrollY > 60) {
+      setFix(true);
+    } else {
+      setFix(false)
+    }
+  }
+
+  window.addEventListener("scroll", navToFix)
 
   const [positive, setPositive] = useState(false)
   function toggle(){
@@ -28,14 +50,13 @@ function Navbar() {
   }
 
   return (
-    <div className='nav'>
+    <div className={`nav ${fix ? 'sticky' : ''}`}>
       <div className='my-name'>
         A
         <span>detomiwa</span>
-      </div>
-
-      <div className='mobile-toggle' onClick={toggle}>
+        <div className='mobile-toggle' onClick={toggle}>
           <i className={positive ? `fas fa-close` : `fas fa-bars`}></i>
+        </div>
       </div>
 
 

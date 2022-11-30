@@ -1,6 +1,6 @@
 .home {
     background-color: rgb(19, 19, 31);
-    height: calc(100vh - 60px);
+    min-height: calc(100vh - 60px);
 }
 
 .home-body {
@@ -85,10 +85,6 @@
 }
 
 @media(max-width:600px){
-
-    .home {
-        overflow-x: scroll;
-    }
 
     .home-body {
         flex-direction: column-reverse;
