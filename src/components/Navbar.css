@@ -38,21 +38,7 @@
     position: relative;
 }
 
-.navlinks .top-links:after,
-.navlinks .top-links.active:after {
-    content: '';
-    background-color: white;
-    width: 0px;
-    height: 2px;
-    position: absolute;
-    bottom: -5px;
-}
 
-.navlinks .top-links:hover:after,
-.navlinks .top-links.active:after {
-    width: 18px;
-    transition: width 500ms ease;
-}
 
 .mobile-toggle {
     color: white;
@@ -82,6 +68,7 @@
         justify-content: space-around;
         display: none;
         width: fit-content;
+        margin: auto;
     }
 
     .navlinks > .top-links li {
