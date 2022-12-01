@@ -7,7 +7,7 @@ function AboutMe() {
     <div className='about-me'>
         <div className='about-img-box'>
             <div className='about-me-pic'><img  src={myPic} /></div>
-            <div>check my profile on <a target='_blank' href='https://www.linkedin.com/in/kehinde-akinola-b32aa0229/'>Linked<i className='fa fa-linkedin'></i></a></div>
+            <div className='check'>check my profile on <a target='_blank' href='https://www.linkedin.com/in/kehinde-akinola-b32aa0229/'>Linked<i className='fa fa-linkedin'></i></a></div>
         </div>
 
         <div className='about-me-content'>

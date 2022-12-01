@@ -3,7 +3,7 @@
     background-color: rgb(19, 19, 31);
     min-height: calc(100vh - 60px);
     display: flex;
-    padding: 40px 3% 0px 5%;
+    padding: 40px 10% 0px 5%;
     padding-top: 40px;
     font-size: 1.1rem;
     line-height: 30px;
@@ -18,7 +18,20 @@
 }
 
 .about-img-box {
-    margin-right: 30px;
+    margin-right: 90px;
+}
+
+.check {
+    text-align: center;
+}
+
+.check a {
+    text-decoration: none;
+    color: white;
+}
+
+.check a i {
+    color: rgb(16, 16, 156);
 }
 
 .about-me-head {
@@ -34,6 +47,7 @@
 @media(max-width: 900px){
     .about-me {
         flex-direction: column;
+        padding-right: 3%;
     }
 
     .about-img-box {

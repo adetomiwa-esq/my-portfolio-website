@@ -1,6 +1,6 @@
 .home-page {
     background-color: rgb(19, 19, 31);
-    min-height: 100vh;
+    height: calc(100vh - 60px);
     border: 1px solid rgb(19, 19, 31);
 }
 
@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     padding-left: 5%;
-    /* margin-top: 30px; */
+    margin-top: 50px;
 }
 
 .welcome {

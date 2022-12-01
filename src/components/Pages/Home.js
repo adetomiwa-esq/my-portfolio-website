@@ -14,7 +14,7 @@ function Home() {
             <p className='brief-1'>
               Front-end developer with experience in the use of HTML, CSS/tailwind CSS, JavaScript and React JS in building websites and web applications.
             </p>
-            <p className='brief-2'>I am skilled in the use of code versioning tools like Git and GitHub. I am also familiar with RESTful APIs.</p>
+            <p className='brief-2'>I am skilled in the use of code versioning tools like Git and GitHub.</p>
             <p>I am currently improving at Node JS.</p>
             <div className='reach-me'>
               <a href='https://instagram.com/adetomiwa_akin?r=nametag'><i className='fa fa-instagram'></i></a>

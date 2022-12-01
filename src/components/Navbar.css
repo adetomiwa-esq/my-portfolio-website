@@ -48,6 +48,10 @@
     margin-right: 25px;
 }
 
+.navlinks .active {
+    color: rgb(201, 37, 37);
+}
+
 
 
 @media(max-width:800px){
