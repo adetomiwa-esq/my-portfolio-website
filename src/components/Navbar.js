@@ -31,7 +31,7 @@ function Navbar() {
   const [fix, setFix] = useState(false)
 
   function navToFix(){
-    if(window.scrollY >= 30) {
+    if(window.scrollY >= 10) {
       setFix(true);
     } else {
       setFix(false)

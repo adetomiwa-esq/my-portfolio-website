@@ -1,6 +1,5 @@
 .home-page {
     background-color: rgb(19, 19, 31);
-    height: calc(100vh - 60px);
     border: 1px solid rgb(19, 19, 31);
 }
 
@@ -14,6 +13,7 @@
 .welcome {
     color: white;
     width: 50%;
+    margin-right: 20px;
 }
 
 .my-image {
@@ -72,15 +72,21 @@
     font-size: 1.5rem;
 }
 
+@media(max-width:900px){
+    .my-image{
+        margin-right: 5%;
+    }
+}
+
 @media(max-width:850px){
     .img-box {
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
     }
     
     .my-image img {
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 300px;
     }
 }
 
