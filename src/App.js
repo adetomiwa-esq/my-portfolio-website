@@ -11,7 +11,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/my-portfolio-website' element={<Home />} />
-          <Route path='/aboutme' element={<AboutMe />}/>
+          <Route path='/my-portfolio-website/aboutme' element={<AboutMe />}/>
         </Routes>
       </BrowserRouter>
     </div>
