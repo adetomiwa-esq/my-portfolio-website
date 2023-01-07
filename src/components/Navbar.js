@@ -1,32 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 function Navbar() {
 
   useEffect(() => {
-    const navLinks = document.querySelectorAll(".navlinks .top-links")
-    navLinks.forEach(x => {
-      x.addEventListener('click', changeActive)     
-    });
-
-    function changeActive(){
-      navLinks.forEach(link => {
-        link.classList.remove('active')
-        this.classList.add('active')
-      })
-    }
-
-    // const nav = document.querySelector('.nav')
-    // window.onscroll = function(){
-    //   if(window.pageYOffset >= nav.offsetTop){
-    //     nav.classList.add('sticky')
-        
-    //   } else {
-    //     nav.classList.remove('sticky')
-    //   }
-    // }
-  },[])
+    Aos.init({ duration: 2000 });
+  }, [])
 
   const [fix, setFix] = useState(false)
 
@@ -53,7 +35,7 @@ function Navbar() {
     <div className={`nav ${fix ? 'sticky' : ''}`}>
       <div className='my-name'>
         A
-        <span>detomiwa</span>
+        <span data-aos='slide-down'>detomiwa</span>
         <div className='mobile-toggle' onClick={toggle}>
           <i className={positive ? `fas fa-close` : `fas fa-bars`}></i>
         </div>
@@ -61,9 +43,9 @@ function Navbar() {
 
 
       <ul className={`navlinks ${positive ? 'nav-slide-in' : ''}`}>
-        <Link to='/my-portfolio-website' onClick={changePositive} className='top-links active'><li>Home</li></Link>
-        <Link to='/my-portfolio-website/aboutme' onClick={changePositive} className='top-links'><li>About Me</li></Link>
-        <Link to='/' onClick={changePositive} className='top-links'><li>Portfolio</li></Link>
+        <Link to='/my-portfolio-website' onClick={changePositive} className='top-links'><li>Home</li></Link>
+        <Link to='/aboutme' onClick={changePositive} className='top-links'><li>About Me</li></Link>
+        <Link to='/portfolio' onClick={changePositive} className='top-links'><li>Portfolio</li></Link>
       </ul>
 
 
