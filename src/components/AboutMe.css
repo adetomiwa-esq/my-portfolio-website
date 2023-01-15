@@ -2,6 +2,7 @@
     color: white;
     background-color: rgb(19, 19, 31);
     min-height: calc(100vh - 60px);
+    max-height: fit-content;
     display: flex;
     padding: 40px 10% 0px 5%;
     padding-top: 40px;
@@ -26,7 +27,6 @@
 }
 
 .check a {
-    text-decoration: none;
     color: white;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .about-me-p1 {
-    font-size: 25px;
+    font-size: 23px;
     margin-bottom: 10px;
 }
 

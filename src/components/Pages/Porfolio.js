@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 function Porfolio() {
 
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 3000 });
   }, [])
   const myProjects = [
     {
