@@ -18,7 +18,7 @@ function Home() {
             <div className='name'>I'm Akinola Kehinde <span className='ade'>Adetomiwa</span></div>
             <div className='role'>Front-end Developer</div>
             <p className='brief-1'>
-              Front-end developer with experience in the use of HTML, CSS/tailwind CSS, JavaScript and React JS in building websites and web applications.
+              Front-end developer with experience in the use of HTML, CSS/tailwind css, JavaScript and React JS/Redux in building websites and web applications.
             </p>
             <p className='brief-2'>I am skilled in the use of code versioning tools like Git and GitHub.</p>
             <p>I am currently improving at Vue JS.</p>
