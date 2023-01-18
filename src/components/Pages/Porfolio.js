@@ -12,10 +12,10 @@ function Porfolio() {
   }, [])
   const myProjects = [
     {
-      imgSrc: Artsy, link: 'https://adetomiwa-esq-artsy-web-app.netlify.app', appName: 'Artsy web app', type: 'E-commerce website'
+      imgSrc: Artsy, link: 'https://adetomiwa-esq-artsy-web-app.netlify.app', appName: 'Artsy web app', type: 'E-commerce website', tools: ['React', 'Tailwind']
     },
     {
-      imgSrc: Spotify, link: 'https://adetomiwa-esq.github.io/my-react-spotify-clone', appName: 'Spotify Clone', type: 'Music App'
+      imgSrc: Spotify, link: 'https://adetomiwa-esq.github.io/my-react-spotify-clone', appName: 'Spotify Clone', type: 'Music App', tools: ['React', 'Deezer API', 'CSS']
     }
   ]
 
@@ -31,11 +31,19 @@ function Porfolio() {
                   <h1>{project.appName}</h1>
                   <div>{project.type}</div>
                 </div>
+                <div className='tools'>
+                  {
+                    project.tools.map(tool => {
+                      return <div>{tool}</div>
+                    })
+                  }
+                </div>
               </a>
              </div>
           })
         }
       </div>
+      <div className='check-github'>Check my Github <a href='https://github.com/adetomiwa-esq'>@Adetomiwa-esq</a> for more projects.</div>
     </div>
   )
 }

@@ -41,13 +41,45 @@
     color: white;
     display: none;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
 }
 
 .my-project:hover .proj-description {
     display: block;
 }
+
+.tools {
+    position: absolute;
+    padding-left: 5%;
+    bottom: 8%;
+    display: flex;
+    color: white;
+}
+
+.tools > div {
+    background-color: rgb(56, 55, 55);
+    padding: 8px 12px;
+    border-radius: 7px;
+    margin-right: 12px;
+}
+
+.my-project:hover .tools {
+    opacity: 0.6;
+}
+
+.check-github {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.check-github a {
+    color: white;
+}
+
 
 @media(max-width: 700px){
     .projects {
