@@ -3,6 +3,7 @@
     background-color: rgb(19, 19, 31);
     min-height: calc(100vh - 60px);
     max-height: fit-content;
+    overflow-y: hidden;
     display: flex;
     padding: 40px 10% 0px 5%;
     padding-top: 40px;

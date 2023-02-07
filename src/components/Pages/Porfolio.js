@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import '../Portfolio.css';
 import Artsy from '../images/artsy.png';
 import Spotify from '../images/spotifyClone.png';
+import Realty from '../images/homeRentals.png'
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
@@ -11,6 +12,9 @@ function Porfolio() {
     Aos.init({ duration: 3000 });
   }, [])
   const myProjects = [
+    {
+      imgSrc: Realty, link: 'https://main--home-rentals-agency.netlify.app/', appName: 'Home Rentals', type: 'Realty website', tools: ['React', 'Typescript', 'Tailwind', 'AOS']
+    },
     {
       imgSrc: Artsy, link: 'https://adetomiwa-esq-artsy-web-app.netlify.app', appName: 'Artsy web app', type: 'E-commerce website', tools: ['React', 'Tailwind']
     },
