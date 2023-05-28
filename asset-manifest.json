@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/my-portfolio-website/static/css/main.959a2e67.css",
-    "main.js": "/my-portfolio-website/static/js/main.ad3d5012.js",
+    "main.js": "/my-portfolio-website/static/js/main.6d774c4d.js",
     "static/media/homeRentals.png": "/my-portfolio-website/static/media/homeRentals.4bf28095b3f6c590de61.png",
     "static/media/artsy.png": "/my-portfolio-website/static/media/artsy.17bd89dbc694f92841e0.png",
     "static/media/spotifyClone.png": "/my-portfolio-website/static/media/spotifyClone.cd7b4fd0a1298e7a298e.png",
+    "static/media/food.png": "/my-portfolio-website/static/media/food.7de1d93bdb805e0f4a18.png",
+    "static/media/detail.png": "/my-portfolio-website/static/media/detail.1b487f9d738a0dadf214.png",
     "static/media/profile-img.JPG": "/my-portfolio-website/static/media/profile-img.8fda649ff3b8e2c8a4d7.JPG",
     "index.html": "/my-portfolio-website/index.html",
     "main.959a2e67.css.map": "/my-portfolio-website/static/css/main.959a2e67.css.map",
-    "main.ad3d5012.js.map": "/my-portfolio-website/static/js/main.ad3d5012.js.map"
+    "main.6d774c4d.js.map": "/my-portfolio-website/static/js/main.6d774c4d.js.map"
   },
   "entrypoints": [
     "static/css/main.959a2e67.css",
-    "static/js/main.ad3d5012.js"
+    "static/js/main.6d774c4d.js"
   ]
 }
