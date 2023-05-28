@@ -55,6 +55,7 @@
     bottom: 8%;
     display: flex;
     color: white;
+    flex-wrap: wrap;
 }
 
 .tools > div {
@@ -62,6 +63,7 @@
     padding: 8px 12px;
     border-radius: 7px;
     margin-right: 12px;
+    margin-top: 6px;
 }
 
 .my-project:hover .tools {

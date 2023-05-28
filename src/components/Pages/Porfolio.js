@@ -15,19 +15,19 @@ function Porfolio() {
   }, [])
   const myProjects = [
     {
-      imgSrc: Detail, link: 'https://ade-details.netlify.app', appName: 'Ade-s Detail', type: 'Detail App', tools: ['React', 'Typescript', 'Tailwind', 'Redux-toolkit']
+      imgSrc: Detail, link: 'https://ade-details.netlify.app', appName: 'Ade-s Detail', type: 'Detail App', tools: ['React', 'Typescript', 'Tailwind-css', 'Redux-toolkit']
     },
     {
-      imgSrc: Realty, link: 'https://main--home-rentals-agency.netlify.app/', appName: 'Home Rentals', type: 'Realty website', tools: ['React', 'Typescript', 'Tailwind', 'AOS']
+      imgSrc: Realty, link: 'https://main--home-rentals-agency.netlify.app/', appName: 'Home Rentals', type: 'Realty website', tools: ['React', 'Typescript', 'Tailwind-css', 'AOS']
     },
     {
-      imgSrc: Artsy, link: 'https://adetomiwa-esq-artsy-web-app.netlify.app', appName: 'Artsy web app', type: 'E-commerce website', tools: ['React', 'Tailwind']
+      imgSrc: Artsy, link: 'https://adetomiwa-esq-artsy-web-app.netlify.app', appName: 'Artsy web app', type: 'E-commerce website', tools: ['React', 'Tailwind-css']
     },
     {
       imgSrc: Spotify, link: 'https://adetomiwa-esq.github.io/my-react-spotify-clone', appName: 'Spotify Clone', type: 'Music App', tools: ['React', 'Deezer API', 'CSS']
     },
     {
-      imgSrc: Food, link: 'https://busayo-project.netlify.app', appName: 'Food proj', type: 'Food App', tools: ['React', 'Tailwind',]
+      imgSrc: Food, link: 'https://busayo-project.netlify.app', appName: 'Food proj', type: 'Food App', tools: ['React', 'Tailwind-css',]
     },
   ]
 
