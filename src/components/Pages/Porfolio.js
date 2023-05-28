@@ -2,7 +2,9 @@ import React, { useEffect } from 'react';
 import '../Portfolio.css';
 import Artsy from '../images/artsy.png';
 import Spotify from '../images/spotifyClone.png';
-import Realty from '../images/homeRentals.png'
+import Realty from '../images/homeRentals.png';
+import Detail from '../images/detail.png';
+import Food from '../images/food.png';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
@@ -13,6 +15,9 @@ function Porfolio() {
   }, [])
   const myProjects = [
     {
+      imgSrc: Detail, link: 'https://ade-details.netlify.app', appName: 'Ade-s Detail', type: 'Detail App', tools: ['React', 'Typescript', 'Tailwind', 'Redux-toolkit']
+    },
+    {
       imgSrc: Realty, link: 'https://main--home-rentals-agency.netlify.app/', appName: 'Home Rentals', type: 'Realty website', tools: ['React', 'Typescript', 'Tailwind', 'AOS']
     },
     {
@@ -20,7 +25,10 @@ function Porfolio() {
     },
     {
       imgSrc: Spotify, link: 'https://adetomiwa-esq.github.io/my-react-spotify-clone', appName: 'Spotify Clone', type: 'Music App', tools: ['React', 'Deezer API', 'CSS']
-    }
+    },
+    {
+      imgSrc: Food, link: 'https://busayo-project.netlify.app', appName: 'Food proj', type: 'Food App', tools: ['React', 'Tailwind',]
+    },
   ]
 
   return (
